@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0add3a50-f30b-42b7-8814-a751e9503b25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/bean/MyConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/AppInitializer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/AppInitializer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/bean/SpringBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/bean/SpringBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/src/main/java/lk/ecommerce/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/target/classes/lk/ecommerce/AppInitializer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/target/classes/lk/ecommerce/AppInitializer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/target/classes/lk/ecommerce/bean/SpringBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/target/classes/lk/ecommerce/bean/SpringBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/target/classes/lk/ecommerce/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/02_Spring_Bean_life_Cycle/target/classes/lk/ecommerce/config/AppConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <workItem from="1737350643363" duration="585000" />
       <workItem from="1737431698019" duration="2117000" />
       <workItem from="1737477480504" duration="3638000" />
-      <workItem from="1737515754753" duration="3360000" />
+      <workItem from="1737515754753" duration="4934000" />
     </task>
     <servers />
   </component>
