@@ -13,8 +13,10 @@ import org.springframework.context.annotation.Scope;
 public class AppConfig {
 
     @Bean
-//    @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-   public MyConnection myConnection(){
+    @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//    @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+
+    public MyConnection myConnection(){
        return new MyConnection();
    }
 

@@ -12,6 +12,10 @@ public class AppInitializer2 {
 
         context.register(AppConfig.class);
         context.refresh();
+        MyConnection myConnection1 = context.getBean(MyConnection.class);
+        System.out.println("------------------------");
+        MyConnection myConnection2 = context.getBean(MyConnection.class);
+
 
 //        SpringBean bean1 = context.getBean(SpringBean.class);
 //        SpringBean bean2 = context.getBean(SpringBean.class);
