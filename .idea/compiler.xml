@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="04_FullMode_VS_LightMod" />
         <module name="02_Spring_Bean_life_Cycle" />
         <module name="01_Spring_core" />
         <module name="03_Spring_DI" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="04_FullMode_VS_LightMode" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
