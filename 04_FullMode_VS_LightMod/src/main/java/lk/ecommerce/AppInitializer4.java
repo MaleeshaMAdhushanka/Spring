@@ -1,5 +1,7 @@
 package lk.ecommerce;
 
+import lk.ecommerce.bean.SpringBeanOne;
+import lk.ecommerce.bean.SpringBeanTwo;
 import lk.ecommerce.config.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -12,6 +14,24 @@ public class AppInitializer4 {
 
         context.refresh();
 
+
+//        SpringBeanTwo bean1 = context.getBean(SpringBeanTwo.class);
+//        SpringBeanTwo bean2 = context.getBean(SpringBeanTwo.class);
+//
+//        System.out.println(bean1);
+//        System.out.println(bean2);
+
+//        SpringBeanOne bean = context.getBean(SpringBeanOne.class);
+//        System.out.println(bean);
+//
+//        SpringBeanOne bean2 = context.getBean(SpringBeanOne.class);
+//        System.out.println(bean2);
+//
+//        SpringBeanTwo bean3 = context.getBean(SpringBeanTwo.class);
+//        System.out.println(bean3);
+//
+//        SpringBeanTwo bean4 = context.getBean(SpringBeanTwo.class);
+//        System.out.println(bean4);
 
         context.registerShutdownHook();
 

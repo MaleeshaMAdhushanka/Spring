@@ -4,22 +4,17 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Bean;
 
-
-public class SpringBeanTwo implements BeanNameAware, ApplicationContextAware {
+public class SpringBeanThree implements BeanNameAware, ApplicationContextAware {
 
     @Override
     public void setBeanName(String name) {
-        System.out.println("SpringBeanTwo Bean Name: " + name);
+        System.out.println("SpringBeanThree Bean Name: " + name);
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         System.out.println("SpringBeanThree Application Context: " + applicationContext);
-
     }
-//    public SpringBeanTwo() {
-//        System.out.println("Spring Bean Two Constructor");
-//    }
 }
