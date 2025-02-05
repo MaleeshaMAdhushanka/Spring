@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 //nethnm rest eka
 //@RestController
 @Controller
+//- view ruturns
 @RequestMapping("/hello")
 public class HelloController {
     public HelloController(){

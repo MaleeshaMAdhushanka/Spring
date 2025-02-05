@@ -18,6 +18,7 @@ public class WebAppConfig  implements WebMvcConfigurer {
     @Bean
     public ViewResolver viewResolver(){
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        // WEB-INF/views/index.html
         viewResolver.setPrefix("/WEB-INF/views/");
         viewResolver.setSuffix(".html");
         viewResolver.setOrder(2);
