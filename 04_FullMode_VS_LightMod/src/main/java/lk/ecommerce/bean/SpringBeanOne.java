@@ -21,10 +21,10 @@ public class SpringBeanOne implements BeanNameAware, ApplicationContextAware {
     @Bean
     public SpringBeanTwo springBeanTwo() {
 
-        SpringBeanThree springBeanThree1 = springBeanThree();
-        SpringBeanThree springBeanThree2 = springBeanThree();
-        System.out.println(springBeanThree1);
-        System.out.println(springBeanThree2);
+//        SpringBeanThree springBeanThree1 = springBeanThree();
+//        SpringBeanThree springBeanThree2 = springBeanThree();
+//        System.out.println(springBeanThree1);
+//        System.out.println(springBeanThree2);
 
         return new SpringBeanTwo();
 //        SpringBeanThree springBeanThree1 = new SpringBeanThree();
