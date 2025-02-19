@@ -45,7 +45,7 @@ public class CustomerController {
 
         for (int i = 0; i < customers.size(); i++) {
             CustomerDTO exitingCustomer = customers.get(i);
-            if (exitingCustomer .getId().equals(id)){
+            if (exitingCustomer.getId().equals(id)){
                 customers.remove(i);
                 return true;
 
