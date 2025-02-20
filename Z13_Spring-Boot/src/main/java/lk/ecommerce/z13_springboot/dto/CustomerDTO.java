@@ -1,7 +1,5 @@
 package lk.ecommerce.z13_springboot.dto;
 
-import lombok.*;
-
 
 //@Getter
 //@Setter
@@ -13,13 +11,16 @@ public class CustomerDTO {
 
     private String address;
 
+    private int age;
+
     public CustomerDTO() {
     }
 
-    public CustomerDTO(int id, String name, String address) {
+    public CustomerDTO(int id, String name, String address, int age) {
         this.id = id;
         this.name = name;
         this.address = address;
+        this.age = this.age;
     }
 
     public int getId() {
@@ -44,5 +45,13 @@ public class CustomerDTO {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
